@@ -1,1 +1,134 @@
-theme: jekyll-theme-architect
+# Site
+repository: cowienduckie/cowienduckie.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Minh Tran
+title: Software Development Intern
+email: minhtran.2404@outlook.com
+phone: (+84)96 221 5871
+website: cowienduckie.github.io
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: facespics
+github_username:  cowienduckie
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+facebook_username: cowienduckie
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: minhtran2404
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi,  I am Minh Tran, a software development intern. I have 6 months of experience in <mark>.NET core</mark> technologies and good knowledge of Database Design, Object-Oriented Analysis and Design.  
+  Learning new stuff is my strength. Currently, I am trying my best to learn JavaScript, ReactJS, other front-end technologies in general, and especially ASP .NET Core Web API. 
+  In my university classes, I am considered a good team player because I usually match up with classmates that I haven't worked with before instead of my friends. In my opinion, these are always good experiences so that I can improve my communication skill, learn new languages and technologies from new teammates.
+  My favorite books are <mark>Algorithm</mark> (Jeff Erickson), <mark>Head First Design Patterns</mark>.
+
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: E-Commerce Web Application for Clothing Shop
+        link: github.com/Software-Engineering-Team-13-20211/ClothingShop
+        # link_text: Project Website
+        additional_links:
+          - title:  E-Commerce Web Application for clothing Shop
+            icon: fab fa-github
+            url: https://github.com/Software-Engineering-Team-13-20211/ClothingShop
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          My team built this project from the requirements of my teacher in a subject named Introduction of Software Development. 
+        description: | # this will include new lines to allow paragraphs
+          This project was also my way of learning <mark>ASP .NET Core Web MVC</mark> and <mark>Database Design</mark>. In this project, we have an Agile team of 7 members working together with Scrum. I have learned a good set of software development skills, not only technical ones but also project management as a <mark>Scrum Master</mark> of my team.
+  
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Viettel IDC
+        link: viettelidc.com.vn
+        # link_text: boringcompany.com
+        sub_title: Software Development Intern
+        caption: August 2021 - Present        
+        description: | # this will include new lines to allow paragraphs
+          Having an internship at Viettel IDC, which is the leading provider of data center and cloud computing services in Vietnam, is a good experience for myself. When working here, I can learn a lot of communication and technical skills, especially <mark>.NET development</mark> and how an <mark>Agile</mark> team really works.
+            
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hanoi University of Science and Technology
+        caption: September 2018 - 2023
+        sub_title: BE Computer Engineering
+        description: | # this will include new lines to allow paragraphs
+          During my time at HUST(Hanoi University of Science and Technology) I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time as a committee member of the *HUST Boardgame Club*.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Reading
+      - Gaming
+      - Swimming
+      
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
