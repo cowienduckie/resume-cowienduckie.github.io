@@ -1,5 +1,5 @@
 # Site
-repository: cowienduckie/cowienduckie.github.io
+repository: cowienduckie/resume-cowienduckie.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -7,10 +7,10 @@ version: 2
 
 # Personal info
 name: Minh Tran
-title: Software Development Intern
+title: Web Developer
 email: minhtran.2404@outlook.com
 phone: (+84)96 221 5871
-website: cowienduckie.github.io
+website: lowkeycode.me
 
 # Dark Mode (true/false/never)
 darkmode: never
