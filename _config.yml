@@ -49,10 +49,10 @@ linkedin_username: minhtran2404
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi,  I am Minh Tran, a software development intern. I have 6 months of experience in <mark>.NET core</mark> technologies and good knowledge of Database Design, Object-Oriented Analysis and Design.  
-  Learning new stuff is my strength. Currently, I am trying my best to learn JavaScript, ReactJS, other front-end technologies in general, and especially ASP .NET Core Web API. 
-  In my university classes, I am considered a good team player because I usually match up with classmates that I haven't worked with before instead of my friends. In my opinion, these are always good experiences so that I can improve my communication skill, learn new languages and technologies from new teammates.
-  My favorite books are <mark>Algorithm</mark> (Jeff Erickson), <mark>Head First Design Patterns</mark>.
+Hi, I'm Minh Tran, a “lowkey” web developer. I have over one year of experience in <mark>.NET Core Development</mark> and good knowledge of <mark>SQL Server</mark>, <mark>Database Design</mark>, and <mark>Object-oriented Programming</mark>.
+Learning and absorbing new knowledge is my strength and leisure pursuit. Currently, I am striving to learn <mark>ReactJS</mark> and sharpen my <mark>.NET Development</mark> skills. Besides, colleagues and friends deem me a good team player because I always match up with people I haven’t worked with before and adapt to an entirely new team. Thus, I believe such a situation offers an excellent way to improve my communication skills as well as acquire more insightful perspectives from various standpoints. 
+My favorite technical book is <mark>Algorithm (Jeff Erickson)</mark>.
+
 
 
 content:
@@ -64,48 +64,43 @@ content:
         link: github.com/Software-Engineering-Team-13-20211/ClothingShop
         # link_text: Project Website
         additional_links:
-          - title:  E-Commerce Web Application for clothing Shop
+          - title:  E-Commerce Web Application for Clothing Shop
             icon: fab fa-github
             url: https://github.com/Software-Engineering-Team-13-20211/ClothingShop
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          My team built this project from the requirements of my teacher in a subject named Introduction of Software Development. 
+          This web app is a school project I partook in as the Team Leader in a subject named “Introduction to Software Development”.
         description: | # this will include new lines to allow paragraphs
-          This project was also my way of learning <mark>ASP .NET Core Web MVC</mark> and <mark>Database Design</mark>. In this project, we have an Agile team of 7 members working together with Scrum. I have learned a good set of software development skills, not only technical ones but also project management as a <mark>Scrum Master</mark> of my team.
-  
+          In this project, I was the leader of an Agile team with seven members, working together to build a web application for a client’s business clothing shop. Among a wide range of technologies, we decided to use ASP .NET core MVC with SQL Server for the back-end and Bootstrap as a visually appealing and easy-to-use UI framework for the front-end.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Viettel IDC
-        link: viettelidc.com.vn
+        link: viettelidc.com.vn 
         # link_text: boringcompany.com
         sub_title: Software Development Intern
-        caption: August 2021 - Present        
+        caption: August 2021 - April 2022        
         description: | # this will include new lines to allow paragraphs
-          Having an internship at Viettel IDC, which is the leading provider of data center and cloud computing services in Vietnam, is a good experience for myself. When working here, I can learn a lot of communication and technical skills, especially <mark>.NET development</mark> and how an <mark>Agile</mark> team really works.
-            
+          An internship at Viettel IDC - the leading data center and cloud computing services provider in Vietnam, definitely was a good and valuable experience for me. In my nine months working there, I have attained excellent skillsets in solving technical problems and administering teamwork.
+          After three months of training in .NET development, I was allowed to join an actual project building the Viettel IDC’s official website. My training involves system architecture, database design, and all primary services majors for the following six months. In addition, I joined the dev team to release the company’s two newest services while maintaining currently available ones.
+
+           
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Hanoi University of Science and Technology
+        title: Hanoi University of Science and Technology (HUST)
         caption: September 2018 - 2023
         sub_title: BE Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at HUST(Hanoi University of Science and Technology) I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at HUST, I have learned a considerable amount of technical knowledge, such as solving complicated problems, managing an IT project, building an application in the modern world, and furthermore. 
+          Moreover, I enjoy subjects related to algorithms because I like to solve problems and induce logical thinking to reach the final answers. 
+          Also, the competitive environment at HUST has reinforced my ability to work under tight deadlines and extreme pressure.
 
-          I spent a lot of my free time as a committee member of the *HUST Boardgame Club*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Reading
-      - Gaming
-      - Swimming
       
 footer_show_references: true
 # references_title: References on request (Override references text)
