@@ -61,7 +61,7 @@ content:
         link: github.com/Software-Engineering-Team-13-20211/ClothingShop
         # link_text: Project Website
         additional_links:
-          - title:  E-Commerce Web Application for Clothing Shop
+          - title:  Github repository of project
             icon: fab fa-github
             url: https://github.com/Software-Engineering-Team-13-20211/ClothingShop
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -94,7 +94,7 @@ content:
           During my time at HUST, I have learned a considerable amount of technical knowledge, such as <mark>solving complicated problems</mark>, <mark>managing an IT project</mark>, <mark>building an application</mark> in the modern world, and furthermore. 
           Moreover, I enjoy subjects related to <mark>algorithms</mark> because I like to solve problems and induce logical thinking to reach the final answers. 
           Also, the competitive environment at HUST has reinforced my ability to work under tight deadlines and extreme pressure.
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
