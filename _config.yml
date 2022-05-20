@@ -73,7 +73,7 @@ content:
         quote: >
           This web app is a school project I partook in as the Team Leader in a subject named “Introduction to Software Development”.
         description: | # this will include new lines to allow paragraphs
-          In this project, I was the leader of an Agile team with seven members, working together to build a web application for a client’s business clothing shop. Among a wide range of technologies, we decided to use ASP .NET core MVC with SQL Server for the back-end and Bootstrap as a visually appealing and easy-to-use UI framework for the front-end.
+          In this project, I was the <mark>leader</mark> of an <mark>Agile team</mark> with seven members, working together to build a web application for a client’s business clothing shop. Among a wide range of technologies, we decided to use <mark>ASP .NET core MVC</mark> with <mark>SQL Server</mark> for the back-end and <mark>Bootstrap</mark> as a visually appealing and easy-to-use UI framework for the front-end.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -86,7 +86,7 @@ content:
         caption: August 2021 - April 2022        
         description: | # this will include new lines to allow paragraphs
           An internship at Viettel IDC - the leading data center and cloud computing services provider in Vietnam, definitely was a good and valuable experience for me. In my nine months working there, I have attained excellent skillsets in solving technical problems and administering teamwork.
-          After three months of training in .NET development, I was allowed to join an actual project building the Viettel IDC’s official website. My training involves system architecture, database design, and all primary services majors for the following six months. In addition, I joined the dev team to release the company’s two newest services while maintaining currently available ones.
+          After three months of training in <mark>.NET Development</mark>, I was allowed to join an actual project building the Viettel IDC’s official website. My training involves <mark>system architecture</mark>, <mark>database design</mark>, and all <mark>primary services majors</mark> for the following six months. In addition, I joined the dev team to release the company’s <mark>two newest services</mark> while maintaining currently available ones.
 
            
   - title: Education # Title for the section
@@ -97,8 +97,8 @@ content:
         caption: September 2018 - 2023
         sub_title: BE Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at HUST, I have learned a considerable amount of technical knowledge, such as solving complicated problems, managing an IT project, building an application in the modern world, and furthermore. 
-          Moreover, I enjoy subjects related to algorithms because I like to solve problems and induce logical thinking to reach the final answers. 
+          During my time at HUST, I have learned a considerable amount of technical knowledge, such as <mark>solving complicated problems</mark>, <mark>managing an IT project</mark>, <mark>building an application</mark> in the modern world, and furthermore. 
+          Moreover, I enjoy subjects related to <mark>algorithms</mark> because I like to solve problems and induce logical thinking to reach the final answers. 
           Also, the competitive environment at HUST has reinforced my ability to work under tight deadlines and extreme pressure.
 
       
