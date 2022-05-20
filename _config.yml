@@ -49,9 +49,9 @@ linkedin_username: minhtran2404
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-Hi, I'm Minh Tran, a “lowkey” web developer. I have over one year of experience in <mark>.NET Core Development</mark> and good knowledge of <mark>SQL Server</mark>, <mark>Database Design</mark>, and <mark>Object-oriented Programming</mark>.
-Learning and absorbing new knowledge is my strength and leisure pursuit. Currently, I am striving to learn <mark>ReactJS</mark> and sharpen my <mark>.NET Development</mark> skills. Besides, colleagues and friends deem me a good team player because I always match up with people I haven’t worked with before and adapt to an entirely new team. Thus, I believe such a situation offers an excellent way to improve my communication skills as well as acquire more insightful perspectives from various standpoints. 
-My favorite technical book is <mark>Algorithm (Jeff Erickson)</mark>.
+  Hi, I'm Minh Tran, a “lowkey” web developer. I have over one year of experience in <mark>.NET Core Development</mark> and good knowledge of <mark>SQL Server</mark>, <mark>Database Design</mark>, and <mark>Object-oriented Programming</mark>.
+  Learning and absorbing new knowledge is my strength and leisure pursuit. Currently, I am striving to learn <mark>ReactJS</mark> and sharpen my <mark>.NET Development</mark> skills. Besides, colleagues and friends deem me a good team player because I always match up with people I haven’t worked with before and adapt to an entirely new team. Thus, I believe such a situation offers an excellent way to improve my communication skills as well as acquire more insightful perspectives from various standpoints. 
+  My favorite technical book is <mark>Algorithm (Jeff Erickson)</mark>.
 
 
 
