@@ -64,10 +64,10 @@ content:
         link_text: Project Website
         additional_links:
           - title:  Github repository
-            icon: fab fa-github
+            icon: fab fa-github fa-3x
             url: https://github.com/cowienduckie/ClothingShop          
           - title: Live Demo
-            icon: fa-solid fa-earth-asia
+            icon: fa fa-globe fa-3x
             url: https://clothingshop.azurewebsites.net/
         quote: >
           This web app is a school project I partook in as the Team Leader in a subject named “Introduction to Software Development”.
