@@ -58,8 +58,6 @@ content:
     content:
       - layout: top-middle
         title: E-Commerce Web Application for Clothing Shop
-        link: github.com/cowienduckie/ClothingShop
-        link_text: Github Repository
         link: https://lowkeycode.me/.net/2022/01/23/clothing-shop-v1.html
         link_text: Project Website
         additional_links:
