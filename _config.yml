@@ -58,12 +58,18 @@ content:
     content:
       - layout: top-middle
         title: E-Commerce Web Application for Clothing Shop
-        link: github.com/Software-Engineering-Team-13-20211/ClothingShop
-        # link_text: Project Website
+        link: github.com/cowienduckie/ClothingShop
+        link_text: Github Repository
+        link: clothingshop.azurewebsites.net
+        link_text: Project Demo
         additional_links:
-          - title:  Github repository of project
+          - title:  Github repository
             icon: fab fa-github
-            url: https://github.com/Software-Engineering-Team-13-20211/ClothingShop
+            url: https://github.com/cowienduckie/ClothingShop
+        additional_links:
+          - title: Live Demo
+            icon: fa-solid fa-earth-asia
+            url: https://clothingshop.azurewebsites.net/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
