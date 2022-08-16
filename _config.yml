@@ -34,7 +34,7 @@ linkedin_username: minhtran2404
 additional_links:
 - title: Download English Resume
   icon: fas fa-arrow-down
-  url: files/MinhTran_Resume.pdf
+  url: resume.lowkeycode.me/files/MinhTran_Resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,12 +46,22 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About
+about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am Minh Tran, a web developer. I have a year of experience in <mark>.NET core Development</mark> and good knowledge of <mark>SQL Server</mark>, <mark>Database Design</mark>, and <mark>Object-oriented Programming</mark>.
+  Hi, I am Minh Tran, a web developer. I have a year of experience in .NET core Development and good knowledge of SQL Server, Database Design, and Object-oriented Programming.
 
-  Learning new things is my strength. I currently strive to learn <mark>ReactJS<m/ark> and sharpen my <mark>.NET development</mark> skills. My the most favorite technical books are <mark>Algorithm (Jeff Erickson)</mark>.
+  Learning new things is my strength. I currently strive to learn ReactJS and sharpen my .NET Development skills. 
+  
+  My the most favorite technical books are <mark>Algorithm (Jeff Erickson)</mark>.
+
+  Technical skills
+    -	Programming Languages: <mark>C#</mark> <mark>JavaScript</mark> <mark>HTML/CSS</mark> <mark>C/C++</mark>
+    -	Frameworks/ Platforms:
+      -	<mark>.NET Core</mark> <mark>ASP .NET MVC</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark>
+      -	<mark>jQuery</mark> <mark>Bootstrap</mark> <mark>ReactJs</mark>
+    - Database Management System: <mark>MS SQL Server</mark> <mark>PostgreSQL</mark>
+
 content:
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -63,10 +73,13 @@ content:
         sub_title: Web Development Intern
         caption: August 2021 - April 2022        
         description: | # this will include new lines to allow paragraphs
-          -	Release <mark>two new cloud services</mark> by collaborating with dev teams in full Scrum sprints and Development life cycle, including service's workflow design, implementation, testing, and debugging.
-          -	Conduct <mark>precision assessment</mark> of services' workflow and database data as well as fix bugs.
-          -	Complete <mark>three-month training</mark> about .NET Development, SQL Server, system architecture, and database design.
-          - Technology stack: <mark>.NET Framework</mark>, <mark>ASP .NET MVC</mark>, <mark>SQL Server</mark>, <mark>KnockoutJS</mark>, <mark>Git</mark>
+          Release two new cloud services by collaborating with dev teams in full Scrum sprints and Development life cycle, including service's workflow design, implementation, testing, and debugging.
+          
+          Conduct precision assessment of services' workflow and database data as well as fix bugs.
+          
+          Complete three-month training about .NET Development, SQL Server, system architecture, and database design.
+          
+          Technology stack: <mark>.NET Framework</mark> <mark>ASP .NET MVC</mark> <mark>SQL Server</mark> <mark>KnockoutJS</mark> <mark>Git</mark>
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -75,15 +88,17 @@ content:
         title: Hanoi University of Science and Technology (HUST)
         caption: September 2018 - 2023
         description: | # this will include new lines to allow paragraphs
-          -	Bachelor of Engineering in Computer Engineering - GPA 2.6/4.0.
-          -	<mark>Coursework</mark>: Algorithms & Data Structures, Object Oriented Design & Programming, Database Systems, Networks & Communications, Web Technologies & e-Services. 
+          Bachelor of Engineering in Computer Engineering - GPA 2.6/4.0.
+         
+          <mark>Coursework</mark>: Algorithms & Data Structures, Object Oriented Design & Programming, Database Systems, Networks & Communications, Web Technologies & e-Services. 
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: Smart Home Application System
-        sub_title: June 2022 - Present
+        caption: June 2022 - Present
         link: https://github.com/cowienduckie/SmartLivingV2
         link_text: Project Website
         additional_links:
@@ -91,12 +106,14 @@ content:
             icon: fab fa-github fa-2x
             url: https://github.com/cowienduckie/SmartLivingV2         
         description: | # this will include new lines to allow paragraphs
-          -	Build a <mark>Smart Home application system</mark>, including an <mark>API server</mark> and <mark>Client applications</mark> for users. This system mainly provides smart device management, remote controls, and data synchronization.
-          -	Technology stack: <mark>ASP .NET Web API</mark>, <mark>Entity Framework</mark>, <mark>SQL Server</mark>, <mark>RabbitMQ</mark>, <mark>ReactJS</mark>.
+          Build a Smart Home application system, including an API server and Client applications for users. This system mainly provides smart device management, remote controls, and data synchronization.
+         
+          Technology stack: <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>SQL Server</mark> <mark>RabbitMQ</mark> <mark>ReactJS</mark>
       
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: E-Commerce Web Application for Clothing Shop
-        sub_title: November 2021 - January 2022
+        caption: November 2021 - January 2022
         link: https://lowkeycode.me/.net/2022/01/23/clothing-shop-v1.html
         link_text: Project Website
         additional_links:
@@ -107,8 +124,9 @@ content:
             icon: fas fa-globe fa-2x
             url: https://clothingshop.azurewebsites.net/
         description: | # this will include new lines to allow paragraphs
-          -	Build an <mark>E-commerce web application</mark> for the client's business clothing shop, and deploy it on <mark>Azure</mark>. This application provides <mark>User features</mark>, such as product SKUs with sizes and colors, shopping cart, COD payment, membership vouchers, etc., and <mark>Admin features</mark>.
-          -	Technology stack: <mark>.NET Core 3.1</mark>, <mark>ASP .NET MVC</mark>, <mark>Entity Framework</mark>, <mark>SQL Server</mark>, <mark>Bootstrap</mark>.
+          Build an E-commerce web application for the client's business clothing shop, and deploy it on <mark>Azure</mark>. This application provides User features, such as product SKUs with sizes and colors, shopping cart, COD payment, membership vouchers, etc., and Admin features.
+         
+          Technology stack: <mark>.NET Core 3.1</mark> <mark>ASP .NET MVC</mark> <mark>Entity Framework</mark> <mark>SQL Server</mark> <mark>Bootstrap</mark>
 
 footer_show_references: false
 # references_title: References on request (Override references text)
