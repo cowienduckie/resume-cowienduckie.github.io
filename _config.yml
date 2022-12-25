@@ -17,10 +17,10 @@ darkmode: never
 
 # Social links
 # twitter_username: facespics
-github_username:  cowienduckie
+github_username: cowienduckie
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-facebook_username: cowienduckie
+# facebook_username: cowienduckie
 # flickr_username: jekyll
 # instagram_username: jameswgrant
 linkedin_username: minhtran2404
@@ -32,9 +32,9 @@ linkedin_username: minhtran2404
 
 # Additional icon links
 additional_links:
-- title: Download English Resume
-  icon: fas fa-arrow-down
-  url: resume.lowkeycode.me/files/MinhTran_Resume.pdf
+  - title: Download English Resume
+    icon: fas fa-arrow-down
+    url: resume.lowkeycode.me/files/MinhTran_Resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,35 +52,58 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, I am Minh Tran, a web developer. I have a year of experience in .NET core Development and good knowledge of SQL Server, Database Design, and Object-oriented Programming.
 
   Learning new things is my strength. I currently strive to learn ReactJS and sharpen my .NET Development skills. 
-  
+
   My the most favorite technical books are <mark>Algorithm (Jeff Erickson)</mark>.
 
   Technical skills
     -	Programming Languages: <mark>C#</mark> <mark>JavaScript</mark> <mark>HTML/CSS</mark> <mark>C/C++</mark>
     -	Frameworks/ Platforms:
       -	<mark>.NET Core</mark> <mark>ASP .NET MVC</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark>
-      -	<mark>jQuery</mark> <mark>Bootstrap</mark> <mark>ReactJs</mark>
+      -	<mark>ReactJs</mark>
     - Database Management System: <mark>MS SQL Server</mark> <mark>PostgreSQL</mark>
+    - Tools: <mark>Git</mark>, <mark>Github workflow</mark>, <mark>Azure Web Service</mark>
 
 content:
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: NashTech
+        link: https://nashtechglobal.com/
+        link_text: nashtechglobal.com
+        sub_title: Software Engineer
+        caption: January 2023 - Present
+
+      - layout: left
+        title: NashTech
+        link: https://nashtechglobal.com/
+        link_text: nashtechglobal.com
+        sub_title: Software Engineer Intern
+        caption: September 2022 - December 2022
+        description: | # this will include new lines to allow paragraphs
+          Deliver a mock project by collaborating with a team of ten members (including Developers and Testers) and one Project Manager as a dev team leader in two Scrum sprints.
+
+          Complete two-month training about .NET Development, ReactJS, Git, Agile Scrum, English, and soft skills.
+
+          Achieve an acknowledgment of completion with an Excellent grade from NashTech.
+
+          Technology stack: <mark>.NET 6</mark> <mark>ASP .NET Web API</mark> <mark>SQL Server</mark> <mark>ReactJS</mark> <mark>Git</mark>
+
+      - layout: left
         title: Viettel IDC
-        link: https://www.viettelidc.com.vn 
-        link_text: viettelidc.com.vn 
+        link: https://www.viettelidc.com.vn
+        link_text: viettelidc.com.vn
         sub_title: Web Development Intern
-        caption: August 2021 - April 2022        
+        caption: August 2021 - April 2022
         description: | # this will include new lines to allow paragraphs
           Release two new cloud services by collaborating with dev teams in full Scrum sprints and Development life cycle, including service's workflow design, implementation, testing, and debugging.
-          
+
           Conduct precision assessment of services' workflow and database data as well as fix bugs.
-          
+
           Complete three-month training about .NET Development, SQL Server, system architecture, and database design.
-          
+
           Technology stack: <mark>.NET Framework</mark> <mark>ASP .NET MVC</mark> <mark>SQL Server</mark> <mark>KnockoutJS</mark> <mark>Git</mark>
-  
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -89,27 +112,27 @@ content:
         caption: September 2018 - 2023
         description: | # this will include new lines to allow paragraphs
           Bachelor of Engineering in Computer Engineering - GPA 2.6/4.0.
-         
-          <mark>Coursework</mark>: Algorithms & Data Structures, Object Oriented Design & Programming, Database Systems, Networks & Communications, Web Technologies & e-Services. 
+
+          Coursework: Algorithms & Data Structures, Object Oriented Design & Programming, Database Systems, Networks & Communications, Web Technologies & e-Services.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak
-        title: Smart Home Application System
-        caption: June 2022 - Present
-        link: https://github.com/cowienduckie/SmartLivingV2
+        title: Web Application for Online Asset Management System
+        caption: November 2022 - December 2022
+        link: https://github.com/cowienduckie/TheRookiesFinal
         link_text: Project Website
         additional_links:
-          - title:  Github repository
+          - title: Github repository
             icon: fab fa-github fa-2x
-            url: https://github.com/cowienduckie/SmartLivingV2         
+            url: https://github.com/cowienduckie/TheRookiesFinal
         description: | # this will include new lines to allow paragraphs
-          Build a Smart Home application system, including an API server and Client applications for users. This system mainly provides smart device management, remote controls, and data synchronization.
-         
-          Technology stack: <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>SQL Server</mark> <mark>RabbitMQ</mark> <mark>ReactJS</mark>
-      
+          Build an web application for the online asset management system, and deploy it on Azure Web Service. This application provides CRUD features for admin to manage asset, assignment and returning request.
+
+          Technology stack: <mark>.NET 6</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>SQL Server</mark> <mark>ReactJS</mark> <mark>Ant Design</mark>
+
       - layout: left
         border: weak
         title: E-Commerce Web Application for Clothing Shop
@@ -117,15 +140,15 @@ content:
         link: https://lowkeycode.me/.net/2022/01/23/clothing-shop-v1.html
         link_text: Project Website
         additional_links:
-          - title:  Github repository
+          - title: Github repository
             icon: fab fa-github fa-2x
-            url: https://github.com/cowienduckie/ClothingShop          
+            url: https://github.com/cowienduckie/ClothingShop
           - title: Live Demo
             icon: fas fa-globe fa-2x
             url: https://clothingshop.azurewebsites.net/
         description: | # this will include new lines to allow paragraphs
           Build an E-commerce web application for the client's business clothing shop, and deploy it on <mark>Azure</mark>. This application provides User features, such as product SKUs with sizes and colors, shopping cart, COD payment, membership vouchers, etc., and Admin features.
-         
+
           Technology stack: <mark>.NET Core 3.1</mark> <mark>ASP .NET MVC</mark> <mark>Entity Framework</mark> <mark>SQL Server</mark> <mark>Bootstrap</mark>
 
 footer_show_references: false
@@ -139,17 +162,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml"
   ]
