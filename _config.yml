@@ -7,10 +7,10 @@ version: 2
 
 # Personal info
 name: Minh Tran
-title: Web Developer
+title: Software Engineer
 email: minhtran.2404@outlook.com
 phone: (+84)96 221 5871
-website: lowkeycode.me
+website: minhtran.tech
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -34,7 +34,7 @@ linkedin_username: minhtran2404
 additional_links:
   - title: Download English Resume
     icon: fas fa-arrow-down
-    url: resume.lowkeycode.me/files/MinhTran_Resume.pdf
+    url: resume.minhtran.tech/files/MinhTran_Resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,7 +49,7 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am Minh Tran, a web developer. I have a year of experience in .NET core Development and good knowledge of SQL Server, Database Design, and Object-oriented Programming.
+  Hi, I am Minh Tran, a web developer. I have two years of experience in .NET core Development and good knowledge of SQL Server, Database Design, and Object-oriented Programming.
 
   Learning new things is my strength. I currently strive to learn ReactJS and sharpen my .NET Development skills. 
 
@@ -73,6 +73,10 @@ content:
         link_text: nashtechglobal.com
         sub_title: Software Engineer
         caption: January 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+          Team size: 8
+
+          Technology stack: <mark>.NET Core</mark> <mark>ASP .NET Web API</mark> <mark>SQL Server</mark> <mark>GraphQL</mark> <mark>EF Core</mark>
 
       - layout: left
         title: NashTech
@@ -118,6 +122,21 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        border: weak
+        title: ProMag - A project management web application
+        caption: April 2023 - August 2023
+        link: https://github.com/cowienduckie/ProMag
+        link_text: Project Website
+        additional_links:
+          - title: Github repository
+            icon: fab fa-github fa-2x
+            url: https://github.com/cowienduckie/ProMag
+        description: | # this will include new lines to allow paragraphs
+          Build an web application for the project management, and deploy it on Azure Web Service.
+
+          Technology stack: <mark>.NET 7</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>PostgreSQL</mark> <mark>ReactJS</mark> <mark>Blazor</mark>
+
       - layout: left
         border: weak
         title: Web Application for Online Asset Management System
