@@ -56,12 +56,12 @@ about_content: | # this will include new lines to allow paragraphs
   My the most favorite technical books are <mark>Algorithm (Jeff Erickson)</mark>.
 
   Technical skills
-    -	Programming Languages: <mark>C#</mark> <mark>JavaScript</mark> <mark>HTML/CSS</mark> <mark>C/C++</mark>
+    -	Programming Languages: <mark>C#</mark> <mark>JavaScript</mark> <mark>TypeScript</mark>
     -	Frameworks/ Platforms:
-      -	<mark>.NET Core</mark> <mark>ASP .NET MVC</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark>
-      -	<mark>ReactJs</mark>
-    - Database Management System: <mark>MS SQL Server</mark> <mark>PostgreSQL</mark>
-    - Tools: <mark>Git</mark>, <mark>Github workflow</mark>, <mark>Azure Web Service</mark>
+      -	<mark>.NET Core</mark> <mark>ASP .NET MVC</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>Blazor</mark>
+      -	<mark>ReactJs</mark> <mark>Ant Design</mark> <mark>Tailwind CSS</mark>
+    - Database Management System: <mark>MS SQL Server</mark>
+    - Tools: <mark>Git</mark> <mark>Docker</mark> <mark>Azure DevOps</mark> <mark>Azure Services</mark>
 
 content:
   - title: Work Experience # Title for the section
@@ -76,7 +76,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           Team size: 8
 
-          Technology stack: <mark>.NET Core</mark> <mark>ASP .NET Web API</mark> <mark>SQL Server</mark> <mark>GraphQL</mark> <mark>EF Core</mark>
+          Demonstrate strong collaboration and communication skills as a member of an Agile Scrum team resulting in consistently on-time project deliveries and improved team efficiency.
+
+          Participate in upgrading the existing microservices system from .NET Core 3.1 to .NET 6, including Duende IdentityServer 6, Hot Chocolate, and other libraries.
+
+          Improve system performance by 20% API calls downtime, from around 7 to 5.5 seconds on average, by optimizing stored procedures, queries, and indexes in SQL Server, and refactoring existing lines to reduce code smells.
+
+          Perform unit testing to keep the code coverage more than 80% for new lines and 70% for the project overall.
+
+          Technology stack: <mark>.NET 6</mark> <mark>ASP .NET Web API</mark> <mark>SQL Server</mark> <mark>GraphQL</mark> <mark>EF Core</mark> <mark>Docker</mark> <mark>Kubernetes</mark> <mark>GraphQL</mark> <mark>Git</mark> <mark>Azure Services</mark>
 
       - layout: left
         title: NashTech
@@ -102,8 +110,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Release two new cloud services by collaborating with dev teams in full Scrum sprints and Development life cycle, including service's workflow design, implementation, testing, and debugging.
 
-          Conduct precision assessment of services' workflow and database data as well as fix bugs.
-
           Complete three-month training about .NET Development, SQL Server, system architecture, and database design.
 
           Technology stack: <mark>.NET Framework</mark> <mark>ASP .NET MVC</mark> <mark>SQL Server</mark> <mark>KnockoutJS</mark> <mark>Git</mark>
@@ -115,28 +121,13 @@ content:
         title: Hanoi University of Science and Technology (HUST)
         caption: September 2018 - 2023
         description: | # this will include new lines to allow paragraphs
-          Bachelor of Engineering in Computer Engineering - GPA 2.6/4.0.
+          Bachelor of Engineering in Computer Engineering - GPA 2.8/4.0.
 
           Coursework: Algorithms & Data Structures, Object Oriented Design & Programming, Database Systems, Networks & Communications, Web Technologies & e-Services.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak
-        title: ProMag - A project management web application
-        caption: April 2023 - August 2023
-        link: https://github.com/cowienduckie/ProMag
-        link_text: Project Website
-        additional_links:
-          - title: Github repository
-            icon: fab fa-github fa-2x
-            url: https://github.com/cowienduckie/ProMag
-        description: | # this will include new lines to allow paragraphs
-          Build an web application for the project management, and deploy it on Azure Web Service.
-
-          Technology stack: <mark>.NET 7</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>PostgreSQL</mark> <mark>ReactJS</mark> <mark>Blazor</mark>
-
       - layout: left
         border: weak
         title: Web Application for Online Asset Management System
