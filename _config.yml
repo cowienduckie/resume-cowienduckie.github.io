@@ -10,7 +10,7 @@ name: Minh Tran
 title: Software Engineer
 email: minhtran.2404@outlook.com
 phone: (+84)96 221 5871
-website: minhtran.tech
+website: minhtrandev.com
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -34,7 +34,7 @@ linkedin_username: minhtran2404
 additional_links:
   - title: Download English Resume
     icon: fas fa-arrow-down
-    url: resume.minhtran.tech/files/MinhTran_Resume.pdf
+    url: https://github.com/cowienduckie/my-resume-latex/releases/latest/download/resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
