@@ -1,3 +1,1 @@
-# cowienduckie.github.io
-
-My developer resume
+# My Online Version of Resume
