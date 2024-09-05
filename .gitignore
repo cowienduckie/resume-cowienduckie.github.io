@@ -4,3 +4,6 @@
 _site
 Gemfile.lock
 *.code-workspace
+.vscode
+node_modules
+package-lock.json

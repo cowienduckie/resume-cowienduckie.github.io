@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "watchy -w _config.yml -- bundle exec jekyll serve --watch"
+  },
+  "devDependencies": {
+    "watchy": "^0.10.2"
+  }
+}

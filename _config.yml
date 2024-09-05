@@ -46,22 +46,18 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me
+about_title: Summary
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am Minh Tran, a web developer. I have two years of experience in .NET core Development and good knowledge of SQL Server, Database Design, and Object-oriented Programming.
+  Software Engineer with 3+ years of experience in backend development, microservices, and object-oriented programming. Domain expert in reporting and content management systems from working at leading software companies. 
 
-  Learning new things is my strength. I currently strive to learn ReactJS and sharpen my .NET Development skills. 
-
-  My the most favorite technical books are <mark>Algorithm (Jeff Erickson)</mark>.
+  Adaptive and quick learner with strong problem-solving skills, and a passion for new technology.
 
   Technical skills
-    -	Programming Languages: <mark>C#</mark> <mark>JavaScript</mark> <mark>TypeScript</mark>
-    -	Frameworks/ Platforms:
-      -	<mark>.NET Core</mark> <mark>ASP .NET MVC</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>Blazor</mark>
-      -	<mark>ReactJs</mark> <mark>Ant Design</mark> <mark>Tailwind CSS</mark>
-    - Database Management System: <mark>MS SQL Server</mark>
-    - Tools: <mark>Git</mark> <mark>Docker</mark> <mark>Azure DevOps</mark> <mark>Azure Services</mark>
+    -	Programming Languages: <mark>C#</mark> \| <mark>TypeScript</mark> \| <mark>Python</mark>
+    -	Frameworks/ Platforms: <mark>.NET Core</mark> \| <mark>Entity Framework</mark> \| <mark>React JS</mark> \| <mark>Power BI</mark>
+    - Database Management System: <mark>Microsoft SQL Server</mark> \| <mark>PostgreSQL</mark>
+    - Tools: <mark>Git</mark> \| <mark>Docker</mark> \| <mark>Kubernetes</mark> \| <mark>Microsoft Azure Services</mark>
 
 content:
   - title: Work Experience # Title for the section
@@ -74,17 +70,19 @@ content:
         sub_title: Software Engineer
         caption: January 2023 - Present
         description: | # this will include new lines to allow paragraphs
-          Team size: 8
+          Team size: 10
 
-          Demonstrate strong collaboration and communication skills as a member of an Agile Scrum team resulting in consistently on-time project deliveries and improved team efficiency.
+          Improved system performance by 20% API calls downtime, from 7 to 5.5 seconds, by tuning stored procedures, and indexes in SQL Server, optimizing GraphQL requests on the front-end, and refactoring the code smell issues.
 
-          Participate in upgrading the existing microservices system from .NET Core 3.1 to .NET 6, including Duende IdentityServer 6, Hot Chocolate, and other libraries.
+          Saved building dashboards and reports effort by 50%, by developing end-to-end visualizations on Power BI and embedding them into the React JS web applications.
 
-          Improve system performance by 20% API calls downtime, from around 7 to 5.5 seconds on average, by optimizing stored procedures, queries, and indexes in SQL Server, and refactoring existing lines to reduce code smells.
+          Migrated the existing microservices system from .NET Core 3.1 to .NET 6, including Duende Identity Server, GraphQL, and other core libraries.
 
-          Perform unit testing to keep the code coverage more than 80% for new lines and 70% for the project overall.
+          Performed end-to-end implementation of new micro-services, query optimization, code reviews, and unit testing as a full-stack developer.
 
-          Technology stack: <mark>.NET 6</mark> <mark>ASP .NET Web API</mark> <mark>SQL Server</mark> <mark>GraphQL</mark> <mark>EF Core</mark> <mark>Docker</mark> <mark>Kubernetes</mark> <mark>GraphQL</mark> <mark>Git</mark> <mark>Azure Services</mark>
+          Demonstrated strong collaboration and communication skills as a member of an Agile Scrum team resulting in consistently on-time project deliveries and improved team efficiency.
+
+          Technology stack: <mark>.NET 6</mark> \| <mark>Microsoft SQL Server</mark> \| <mark>Docker</mark> \| <mark>Kubernetes</mark>\| <mark>Power BI</mark>\| <mark>React JS</mark> \| <mark>GraphQL</mark> \| <mark>RESTful API</mark>
 
       - layout: left
         title: NashTech
@@ -93,13 +91,13 @@ content:
         sub_title: Software Engineer Intern
         caption: September 2022 - December 2022
         description: | # this will include new lines to allow paragraphs
-          Deliver a mock project by collaborating with a team of ten members (including Developers and Testers) and one Project Manager as a dev team leader in two Scrum sprints.
+          Delivered a mock project graded 4.5/5.0 by collaborating with a team of 10 members as a Dev team leader in two Scrum sprints.
 
-          Complete two-month training about .NET Development, ReactJS, Git, Agile Scrum, English, and soft skills.
+          Completed two months of training in .NET Development, ReactJS, Git, Scrum, English, and soft skills with the highest score of 41/50, which is 20% higher than the average.
+          
+          Achieved an acknowledgment of completion "The Rookies" program with an Excellent grade from NashTech.
 
-          Achieve an acknowledgment of completion with an Excellent grade from NashTech.
-
-          Technology stack: <mark>.NET 6</mark> <mark>ASP .NET Web API</mark> <mark>SQL Server</mark> <mark>ReactJS</mark> <mark>Git</mark>
+          Technology stack: <mark>.NET 6</mark> \|  <mark>ASP .NET Web API</mark> \|  <mark>SQL Server</mark> \|  <mark>ReactJS</mark> \|  <mark>Git</mark>
 
       - layout: left
         title: Viettel IDC
@@ -108,18 +106,20 @@ content:
         sub_title: Web Development Intern
         caption: August 2021 - April 2022
         description: | # this will include new lines to allow paragraphs
-          Release two new cloud services by collaborating with dev teams in full Scrum sprints and Development life cycle, including service's workflow design, implementation, testing, and debugging.
+          Release two new cloud services by collaborating with dev teams in full Scrum sprints and Development life cycle, including service’s workflow design, implementation, testing, and debugging.
+
+          Conduct precision assessment of services’ workflow and database data as well as fix bugs.
 
           Complete three-month training about .NET Development, SQL Server, system architecture, and database design.
 
-          Technology stack: <mark>.NET Framework</mark> <mark>ASP .NET MVC</mark> <mark>SQL Server</mark> <mark>KnockoutJS</mark> <mark>Git</mark>
+          Technology stack: <mark>.NET Framework</mark> \|  <mark>ASP .NET MVC</mark> \|  <mark>SQL Server</mark> \|  <mark>KnockoutJS</mark> \|  <mark>Git</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Hanoi University of Science and Technology (HUST)
-        caption: September 2018 - 2023
+        caption: September 2018 - 2024
         description: | # this will include new lines to allow paragraphs
           Bachelor of Engineering in Computer Engineering - GPA 2.8/4.0.
 
@@ -132,8 +132,8 @@ content:
         border: weak
         title: Web Application for Online Asset Management System
         caption: November 2022 - December 2022
-        link: https://github.com/cowienduckie/TheRookiesFinal
-        link_text: Project Website
+        # link: https://github.com/cowienduckie/TheRookiesFinal
+        # link_text: Project Website
         additional_links:
           - title: Github repository
             icon: fab fa-github fa-2x
@@ -141,25 +141,25 @@ content:
         description: | # this will include new lines to allow paragraphs
           Build an web application for the online asset management system, and deploy it on Azure Web Service. This application provides CRUD features for admin to manage asset, assignment and returning request.
 
-          Technology stack: <mark>.NET 6</mark> <mark>ASP .NET Web API</mark> <mark>Entity Framework</mark> <mark>SQL Server</mark> <mark>ReactJS</mark> <mark>Ant Design</mark>
+          Technology stack: <mark>.NET 6</mark> \| <mark>ASP .NET Web API</mark> \| <mark>Entity Framework</mark> \| <mark> Microsoft SQL Server</mark> \| <mark>React JS</mark> \| <mark>Ant Design</mark>
 
       - layout: left
         border: weak
         title: E-Commerce Web Application for Clothing Shop
         caption: November 2021 - January 2022
-        link: https://lowkeycode.me/.net/2022/01/23/clothing-shop-v1.html
-        link_text: Project Website
+        # link: https://lowkeycode.me/.net/2022/01/23/clothing-shop-v1.html
+        # link_text: Project Website
         additional_links:
           - title: Github repository
             icon: fab fa-github fa-2x
             url: https://github.com/cowienduckie/ClothingShop
-          - title: Live Demo
-            icon: fas fa-globe fa-2x
-            url: https://clothingshop.azurewebsites.net/
+          # - title: Live Demo
+          #   icon: fas fa-globe fa-2x
+          #   url: https://clothingshop.azurewebsites.net/
         description: | # this will include new lines to allow paragraphs
-          Build an E-commerce web application for the client's business clothing shop, and deploy it on <mark>Azure</mark>. This application provides User features, such as product SKUs with sizes and colors, shopping cart, COD payment, membership vouchers, etc., and Admin features.
+          Build an E-commerce web application for the client's business clothing shop, and deploy it on Azure. This application provides User features, such as product SKUs with sizes and colors, shopping cart, COD payment, membership vouchers, etc., and Admin features.
 
-          Technology stack: <mark>.NET Core 3.1</mark> <mark>ASP .NET MVC</mark> <mark>Entity Framework</mark> <mark>SQL Server</mark> <mark>Bootstrap</mark>
+          Technology stack: <mark>.NET Core 3.1</mark> \| <mark>ASP .NET MVC</mark> \| <mark>Entity Framework</mark> \| <mark>Microsoft SQL Server</mark> \| <mark>Bootstrap</mark>
 
 footer_show_references: false
 # references_title: References on request (Override references text)
